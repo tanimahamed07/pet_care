@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://www.dovelewis.org/wp-content/uploads/2024/12/Top-Winter-Care-Tips-for-Your-Pet-Infographic.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://greenacresveterinarycenter.com/wp-content/uploads/2024/11/Fall-Winter-News.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Indoor Play & Exercise Sessions",
+    "providerName": "Happy Tails Activity Center",
+    "providerEmail": "play@happytails.com",
+    "price": 20,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Engaging indoor activities to keep your pet active and entertained during winter.",
+    "image": "https://www.pdsa.org.uk/media/1189/winter-pet-care-tips.jpg",
+    "category": "Activity"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Heated Bedding & Shelter Setup",
+    "providerName": "WarmPaws Solutions",
+    "providerEmail": "info@warmpaws.com",
+    "price": 40,
+    "rating": 4.6,
+    "slotsAvailable": 2,
+    "description": "Installation of heated beds and insulated shelters for outdoor pets.",
+    "image": "https://www.dogtipper.com/wp-content/uploads/2014/11/Winter-Dog-Care-Infographic.jpg",
+    "category": "Shelter"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Winter Diet Consultation",
+    "providerName": "NutriPets Clinic",
+    "providerEmail": "nutrition@nutripets.com",
+    "price": 15,
+    "rating": 4.8,
+    "slotsAvailable": 6,
+    "description": "Expert advice on adjusting your pet's diet to maintain energy levels in cold weather.",
+    "image": "https://www.adobeanimalhosp.com/wp-content/uploads/2024/11/Winter-Pet-Care-Tips.jpg",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Winter Coat Styling & Photoshoot",
+    "providerName": "Pawfect Style Studio",
+    "providerEmail": "style@pawfect.com",
+    "price": 50,
+    "rating": 5.0,
+    "slotsAvailable": 3,
+    "description": "Fashionable winter coat styling followed by a professional photoshoot.",
+    "image": "https://missionhillspetcarecenter.com/wp-content/uploads/2024/12/Winter-Care.jpg",
+    "category": "Fashion"
+  }
+]
