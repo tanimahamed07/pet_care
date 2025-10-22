@@ -1,14 +1,15 @@
 import React, { use, useState } from "react";
-import { AuthContext } from "../components/provider/AuthContext";
+// import { AuthContext } from "../provider/AuthContext";
 import { Link, useNavigate } from "react-router";
 import { toast } from "react-toastify";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { AuthContext } from "../provider/AuthContext";
 
 const Register = () => {
   const [error, setError] = useState();
   const [toggle, setToggle] = useState();
+  const { signUpWithEmailAndPassFunc , user, setUser} = use(AuthContext);
   const navigate = useNavigate();
-  const { signUpWithEmailAndPassFunc } = use(AuthContext);
   const handleRegister = (e) => {
     e.preventDefault();
     setError("");
@@ -25,7 +26,8 @@ const Register = () => {
     }
     signUpWithEmailAndPassFunc(email, password)
       .then((res) => {
-        console.log(res.user);
+        setUser(res.user);
+        // console.log(user);
         navigate("/");
       })
       .catch((error) => toast(error.message));
