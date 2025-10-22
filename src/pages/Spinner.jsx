@@ -3,7 +3,7 @@ import { MoonLoader } from 'react-spinners';
 
 const Spinner = () => {
     return (
-        <div>
+        <div className='flex items-center justify-center h-screen'>
             <MoonLoader/>
         </div>
     );

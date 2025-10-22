@@ -7,7 +7,7 @@ const TipsSection = () => {
         <h2 className="text-xl font-semibold text-blue-700 mb-3">
           ❄️ Winter Care Tips for Pets
         </h2>
-        <ul className="list-disc list-inside text-gray-700 text-sm space-y-1.5 text-left">
+        <ul className="list-disc  text-gray-700 text-sm space-y-1.5 text-left">
           <li>Keep your pets warm indoors with blankets or a heated bed.</li>
           <li>Protect their paws with soft, pet-safe boots.</li>
           <li>Feed a balanced diet and avoid overfeeding.</li>
