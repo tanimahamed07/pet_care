@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
+    <footer data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
       <nav>
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Pet Grooming</a>

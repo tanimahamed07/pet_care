@@ -4,7 +4,7 @@ import dr2 from '../../assets/dr2.jpg'
 import dr3 from '../../assets/dr-3.jpg'
 const VetsSection = () => {
   return (
-    <div className="max-w-11/12 mx-auto p-6 mt-12">
+    <div data-aos="zoom-in-left" className="max-w-11/12 mx-auto p-6 mt-12">
       <h2 className="text-2xl md:text-3xl font-semibold text-center text-blue-700 mb-8">
         🩺 Meet Our Expert Vets
       </h2>
@@ -31,7 +31,7 @@ const VetsSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 border border-blue-100 shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 rounded-xl">
+        <div data-aos="zoom-in-right" className="card bg-base-100 border border-blue-100 shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 rounded-xl">
           <figure className="px-6 pt-6">
             <img
               src={dr2}
@@ -52,9 +52,7 @@ const VetsSection = () => {
             </p>
           </div>
         </div>
-
-        {/* Vet 3 */}
-        <div className="card bg-base-100 border border-blue-100 shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 rounded-xl">
+        <div data-aos="zoom-out" className="card bg-base-100 border border-blue-100 shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 rounded-xl">
           <figure className="px-6 pt-6">
             <img
               src={dr3}

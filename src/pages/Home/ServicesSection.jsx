@@ -5,7 +5,7 @@ import ServiceCard from "../ServiceCard";
 const ServicesSection = () => {
   const data = useLoaderData();
   return (
-    <div className="container mx-auto p-4">
+    <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"  className=" container mx-auto p-4">
       <h1 className="text-3xl font-bold text-blue-600 mb-6">
         Popular Winter Care Services
       </h1>

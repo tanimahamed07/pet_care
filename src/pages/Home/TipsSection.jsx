@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../assets/image copy.png";
 const TipsSection = () => {
   return (
-   <div className="max-w-[800px] mx-auto bg-gradient-to-l from-blue-50 to-white border border-blue-100 shadow-md rounded-xl p-5 mt-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col md:flex-row justify-between items-center gap-4">
+   <div  data-aos="fade-up" data-aos-anchor-placement="top-center" className="max-w-[800px] mx-auto bg-gradient-to-l from-blue-50 to-white border border-blue-100 shadow-md rounded-xl p-5 mt-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col md:flex-row justify-between items-center gap-4">
       <div className="text-center md:text-left">
         <h2 className="text-xl font-semibold text-blue-700 mb-3">
           ❄️ Winter Care Tips for Pets

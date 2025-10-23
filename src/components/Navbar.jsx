@@ -3,13 +3,11 @@ import logo from "../assets/image.png";
 import { Link, NavLink } from "react-router";
 import { AuthContext } from "../provider/AuthContext";
 
-import userIcon from "../assets/icons8-user-48.png"
+import userIcon from "../assets/icons8-user-48.png";
 import toast from "react-hot-toast";
 // import Spinner from "../pages/Spinner";
 const Navbar = () => {
   const { user, signoutUserFunc, setUser } = use(AuthContext);
-
-
   const handleLogout = () => {
     signoutUserFunc()
       .then(() => {
@@ -67,7 +65,7 @@ const Navbar = () => {
           <NavLink to="/">
             <li>Home</li>
           </NavLink>
-          <NavLink to="">
+          <NavLink to="/services">
             <li>Services</li>
           </NavLink>
           <NavLink to="/profile">
@@ -81,7 +79,10 @@ const Navbar = () => {
             <div className="dropdown dropdown-end dropdown-hover">
               <div tabIndex={0} role="button" className="avatar cursor-pointer">
                 <div className="w-10 rounded-full">
-                  <img src={`${user ? user?.photoURL: userIcon}`}  alt="User avatar" />
+                  <img
+                    src={`${user ? user?.photoURL : userIcon}`}
+                    alt="User avatar"
+                  />
                 </div>
               </div>
               <ul

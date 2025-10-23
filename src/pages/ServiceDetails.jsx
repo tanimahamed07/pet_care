@@ -1,6 +1,6 @@
 import React from "react";
 import toast from "react-hot-toast";
-import { useLoaderData, useParams } from "react-router";
+import { useLoaderData, useNavigate, useParams } from "react-router";
 
 
 const ServiceDetails = () => {
@@ -8,11 +8,12 @@ const ServiceDetails = () => {
   const { id } = useParams();
 
   const serviceDetails = data.find((d) => d.serviceId == id);
-
+const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     toast.success("Booking Successful");
     e.target.reset();
+    navigate('/')
   };
   return (
     <div className="max-w-11/12 mx-auto my-10 bg-base-200 p-6 rounded-2xl shadow-xl border border-blue-100">

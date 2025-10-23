@@ -70,7 +70,7 @@ const Register = () => {
   };
   return (
     <div className="hero bg-base-200 min-h-screen ">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div data-aos="flip-up" data-aos-delay="100" data-aos-anchor=".example-selector" className="hero-content flex-col lg:flex-row-reverse">
         <div className="card bg-base-100 max-w-sm shrink-0 shadow-2xl">
           <div className="card-body w-full">
             <h1 className="animate__animated animate__bounce text-center text-2xl font-bold">Register</h1>
