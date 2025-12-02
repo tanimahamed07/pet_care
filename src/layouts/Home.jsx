@@ -10,7 +10,7 @@ const Home = () => {
   const { state } = useNavigation();
   return (
     <div>
-      <nav className="bg-base-300 shadow-sm">
+      <nav className="fixed top-0 bg-base-200 w-full z-50">
         <Navbar />
       </nav>
       <main>{state == "loading" ? <Spinner /> : <Outlet></Outlet>}</main>

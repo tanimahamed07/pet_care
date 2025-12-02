@@ -4,13 +4,14 @@ import ServicesSection from './ServicesSection';
 import TipsSection from './TipsSection';
 import VetsSection from './VetsSection';
 import CustomerReview from './CustomerReview';
+import Banner from './Banner';
 
 
 const HomePage = () => {
         
     return (
         <div>
-            <HeroSlider/>
+            <Banner/>
             <ServicesSection/>
             <TipsSection/>
             <VetsSection/>

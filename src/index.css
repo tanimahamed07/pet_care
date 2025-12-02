@@ -1,9 +1,43 @@
 @import "tailwindcss";
-
-@plugin "daisyui" {
-  themes: winter --default;
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #5C7AEA;
+  --color-secondary: #FF8E72;
+  --color-text-gray: #7d7d7d;
 }
-a.active{
+
+@custom-variant dark (&:where([data-theme=night], [data-theme=night] *));
+
+
+
+/* a.active{
   @apply underline text-blue-500
+} */
+
+/* a:hover {
+  @apply underline text-blue-500;
+} */
+
+.navbar .nav-link {
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: #444;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
+/* Hover */
+.navbar .nav-link:hover {
+  background: #f2f2f2;
+}
+
+/* Active Class – এখানে রঙ পরিবর্তন হবে */
+.a.active {
+  background: #0066ff;   /* Primary color */
+  color: #fff;
+}
+.active {
+  @apply bg-secondary text-white rounded ;
+}
