@@ -15,7 +15,7 @@ const PetCare = () => {
       <section className="py-1">
         <div className="container mx-auto px-4 text-center">
           {/* Banner Heading */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-primary">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl pt-12 font-bold mb-6 text-primary">
             Essential Pet Care Rules
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl mb-12">

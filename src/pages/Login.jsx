@@ -47,58 +47,75 @@ const Login = () => {
   };
 
   return (
-    <div className="hero bg-base-200 min-h-screen ">
-      <div
-        data-aos="flip-up"
-        data-aos-delay="100"
-        data-aos-anchor=".example-selector"
-        className="hero-content flex-col lg:flex-row-reverse"
-      >
-        <div className="card bg-base-100 max-w-sm shrink-0 shadow-2xl">
-          <div className="card-body w-full">
-            <h1 className=" text-center text-2xl font-bold">Login</h1>
-            <form action="" onSubmit={handleLogin}>
-              <fieldset className="fieldset">
-                <label className="label">Email</label>
+    <div className="hero min-h-screen flex items-center justify-center">
+      <div className="hero-content flex-col w-full">
+        <div className="card bg-base-200 w-full max-w-sm shrink-0 shadow-2xl">
+          <div className="card-body">
+            <h1 className="text-center text-2xl font-bold mb-4">Login</h1>
+
+            <form onSubmit={handleLogin} className="space-y-3">
+              {/* Email Input */}
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Email</span>
+                </label>
                 <input
                   name="email"
                   value={controlledEmail}
                   onChange={(e) => setControlledEmail(e.target.value)}
                   type="email"
-                  className="input"
-                  placeholder="Email"
+                  className="input input-bordered w-full"
+                  placeholder="email@example.com"
+                  required
                 />
-                <label className="label">Password</label>
-                <div className="relative">
+              </div>
+
+              {/* Password Input */}
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Password</span>
+                </label>
+                <div className="relative w-full">
                   <input
                     name="password"
                     type={toggle ? "text" : "password"}
-                    className="input"
+                    className="input input-bordered w-full pr-10"
                     placeholder="Password"
+                    required
                   />
                   <span
-                    className="absolute top-1/2 left-55 -translate-y-1/2 cursor-pointer text-gray-500"
+                    className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer text-gray-500 hover:text-gray-700"
                     onClick={() => setToggle(!toggle)}
                   >
-                    {toggle ? <FaEyeSlash /> : <FaEye />}
+                    {toggle ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
                   </span>
                 </div>
-                <div>
-                  <Link to="/forget-password" className="link link-hover">
+                <label className="label">
+                  <Link
+                    to="/forget-password"
+                    class="label-text-alt link link-hover text-blue-600"
+                  >
                     Forgot password?
                   </Link>
-                </div>
-                <button className="btn btn-neutral mt-4">Login</button>
-                {/* <!-- Google --> */}
+                </label>
+              </div>
+
+              {/* Login Button */}
+              <div className="form-control mt-6">
+                <button className="btn btn-neutral w-full">Login</button>
+              </div>
+
+              {/* Google Login */}
+              <div className="form-control">
                 <button
                   type="button"
                   onClick={handleGoogleLogin}
-                  className="btn bg-white text-black border-[#e5e5e5]"
+                  className="btn w-full bg-white text-black border-[#e5e5e5] hover:bg-gray-50 flex items-center justify-center gap-2"
                 >
                   <svg
                     aria-label="Google logo"
-                    width="16"
-                    height="16"
+                    width="18"
+                    height="18"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -124,17 +141,18 @@ const Login = () => {
                   </svg>
                   Login with Google
                 </button>
-                <p className="text-center text-sm mt-4">
-                  Don’t have an account?{" "}
-                  <Link
-                    to="/register"
-                    className="text-blue-500 hover:underline font-semibold"
-                  >
-                    Register here
-                  </Link>
-                </p>
-              </fieldset>
+              </div>
             </form>
+
+            <p className="text-center text-sm mt-4">
+              Don’t have an account?{" "}
+              <Link
+                to="/register"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+                Register here
+              </Link>
+            </p>
           </div>
         </div>
       </div>

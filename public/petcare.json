@@ -2,9 +2,9 @@
   {
     "id": 1,
     "title": "Pet Sitting",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=800&q=80",
     "shortDesc": "Professional care for your pets while you are away.",
-    "fullDesc": "Our professional pet sitters provide loving and attentive care for your pets while you are away. We ensure that each pet receives individualized attention based on their personality, dietary needs, and health conditions. Services include feeding, playtime, administering medication if needed, and daily activity reports with photos. We also offer overnight stays and extended care options. Choosing our pet sitting services gives you peace of mind knowing that your pet is in safe hands, comfortable, and happy throughout the day.",
+    "fullDesc": "Our professional pet sitters provide loving and attentive care for your pets while you are away. Whether you’re going on a short trip or an extended vacation, we make sure your pet receives personalized attention, regular feeding, exercise, playtime and proper rest. We understand that being away can cause stress for pets — that’s why our team focuses on creating a comfortable, safe, and familiar environment for them. We follow your pet’s usual routine, administer medications if needed, and provide extra care for special needs or senior pets. Every day we send you a detailed activity update with photos or videos, so you can see how your pet is doing in real time. With flexible timing options — day care, overnight stays or multiple‑day care — you can trust us to treat your pet like our own, giving you peace of mind while you are away.",
     "benefits": [
       "Daily feeding and care tailored to your pet",
       "Personalized attention and companionship",
@@ -22,9 +22,9 @@
   {
     "id": 2,
     "title": "Dog Walking",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://images.ctfassets.net/sfnkq8lmu5d7/7HjKLIlzG4H91YOiK9VIA4/36ed17fa9402782bba9cd959ab12bdfd/The_Wildest_How_to_Start_a_Professional_Dog-Walking_Service_hero_AdobeStock_468896651.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg",
     "shortDesc": "Daily walks to keep your dog healthy and happy.",
-    "fullDesc": "Regular dog walking is essential for your dog’s physical and mental health. Our professional dog walkers provide safe, structured, and enjoyable walks tailored to your dog’s energy level and size. Walks include exercise, socialization with other dogs if appropriate, and monitoring for any health or behavioral issues. Whether it’s a short 30-minute walk or a full hour-long adventure, your dog will return home happy, calm, and well-exercised.",
+    "fullDesc": "Regular dog walking is essential for your dog’s physical and mental health. With our dog walking service, your dog gets a safe, structured outing based on their energy level — from a calm stroll to an energetic walk or run. Every walk includes proper warm-up and cool-down, fresh water breaks, and close supervision to ensure safety. For puppies or older dogs, we adjust pace and duration to match their needs so they don’t get over-exhausted. Walks also provide mental stimulation — new smells, fresh air, socialization if allowed — which helps reduce boredom, anxiety and destructive behavior at home. We ensure prompt feedback after each walk so you know where your dog went, how long it walked, and how it behaved. Whether you opt for a short 30‑minute walk or a longer one‑hour session, we aim to keep your pet happy, healthy, and balanced.",
     "benefits": [
       "Improves physical fitness and maintains healthy weight",
       "Encourages socialization and positive behavior",
@@ -42,9 +42,9 @@
   {
     "id": 3,
     "title": "Pet Grooming",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://www.shutterstock.com/image-photo/woman-cutting-dogs-hair-scissors-600nw-2601909305.jpg",
     "shortDesc": "Professional grooming to make your pet look amazing.",
-    "fullDesc": "Our grooming services ensure your pets not only look great but also stay healthy. We provide baths, haircuts, nail trimming, ear cleaning, teeth brushing, and skin checks. Grooming helps prevent matting, hairballs, skin infections, and ensures your pet’s coat remains shiny and healthy. Each session is customized to the pet’s breed, size, and temperament. Our trained groomers use pet-safe products and techniques to make the experience stress-free and enjoyable.",
+    "fullDesc": "Our grooming services ensure your pets not only look great but also stay healthy. We offer full grooming sessions including bathing with pet‑safe shampoos, thorough brushing to remove loose fur and prevent matting, nail trimming, ear and paw cleaning, and gentle grooming for sensitive areas. For pets with long or dense coats, this helps prevent hairballs, tangles, and skin irritations. After grooming, your pet will feel lighter, cleaner, and more comfortable — shedding reduces and coat becomes shinier and healthier. If your pet is anxious or nervous, our trained groomers handle them with care and patience, offering treats and gentle reassurance to make the experience stress‑free. We also give you personalized after‑care advice so you can maintain coat health at home: how to brush, how often, and signs to watch out for skin issues or over‑shedding.",
     "benefits": [
       "Maintains healthy skin and coat",
       "Prevents matting, hairballs, and infections",
@@ -62,9 +62,9 @@
   {
     "id": 4,
     "title": "Health Checkups",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/10/24153446/Chihuahua-getting-a-check-up-at-the-vet.jpg",
     "shortDesc": "Regular health checkups for your pets’ wellbeing.",
-    "fullDesc": "Routine health checkups are crucial for your pet’s longevity and well-being. Our comprehensive checkups include physical examination, vaccination updates, dental check, parasite prevention, and nutritional guidance. Early detection of health issues helps in timely treatment. Each visit also includes personalized advice on exercise, diet, and lifestyle adjustments. Our veterinarians provide a safe, calm environment to ensure pets feel comfortable throughout the examination.",
+    "fullDesc": "Routine health checkups are crucial for your pet’s longevity and well‑being. During a checkup, our experienced veterinarians perform a comprehensive examination — checking skin and coat condition, ear, eyes, teeth, nails, and overall body condition. We assess your pet’s weight, diet history, activity level and signs of stress or discomfort. For older pets or those with known health issues, we offer specialized screenings: blood tests, dental checks, parasite control, and nutritional consultations. Based on the findings, we provide personalized health and diet recommendations, vaccination reminders if necessary, and preventive advice to help you catch potential issues early. Regular checkups help detect illnesses before they worsen — ensuring your pet stays healthy, active and happy for years to come.",
     "benefits": [
       "Preventive healthcare for long-term wellbeing",
       "Early detection of illnesses",
@@ -82,9 +82,9 @@
   {
     "id": 5,
     "title": "Pet Boarding",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://doggyvilleindia.in/wp-content/uploads/2024/09/how-to-choose-the-best-dog-boarding-facility-for-your-pet.jpg",
     "shortDesc": "Safe and comfortable boarding for your pets.",
-    "fullDesc": "Our pet boarding services provide a safe, clean, and home-like environment for your pets while you are away. Each pet receives personalized care, including feeding, exercise, playtime, and social interaction. Overnight boarding includes comfortable sleeping areas, monitoring throughout the night, and attention to special care requirements. We ensure that your pets feel secure and loved during their stay, reducing stress for both pets and owners.",
+    "fullDesc": "Our pet boarding services provide a safe, clean, and home‑like environment for your pets while you are away. We ensure comfortable sleeping areas, regular feeding, clean water, and daily exercise or playtime depending on your pet’s energy and temperament. Pets are monitored 24/7 by our trained staff to ensure their safety and well‑being. Boarding includes individual bedding, temperature‑controlled spaces, regular cleaning and hygiene maintenance to prevent stress and infections. We also provide socialization opportunities — supervised play sessions or calm interactions — for pets who enjoy companionship. For anxious or senior pets, we offer extra care and special monitoring. With daily updates sent to you, including photos and status reports, you can rest assured your pet is in caring and safe hands until you return.",
     "benefits": [
       "24/7 supervision and care",
       "Comfortable sleeping areas",
@@ -102,9 +102,9 @@
   {
     "id": 6,
     "title": "Pet Training",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://www.hartz.com/wp-content/uploads/2021/10/Dog-Training-Basics-2.jpg",
     "shortDesc": "Professional training for obedience and behavior.",
-    "fullDesc": "Our professional training sessions are designed for puppies and adult pets to improve obedience, social behavior, and tricks. We focus on positive reinforcement techniques that encourage good behavior while strengthening the bond between pet and owner. Training programs are customized based on breed, age, temperament, and owner goals. Sessions include practical exercises, guidance for home practice, and progress tracking.",
+    "fullDesc": "Our professional training sessions are designed for both puppies and adult pets to help them learn obedience, good behavior, and social skills. During a session, experienced trainers work on basic commands (sit, stay, come, heel), leash manners, potty training, and behavioral issues such as excessive barking or anxiety. Training also includes socialization — exposing pets to other pets or friendly humans in controlled, safe environments to boost their confidence and reduce fear or aggression. For long-term results, we provide a structured training plan, follow‑ups, and owner guidance — so you can reinforce positive behavior at home. Whether you need manners, leash control, or specialized behavior training, our sessions aim to build a strong bond between you and your pet, making daily life easier and more enjoyable.",
     "benefits": [
       "Improves behavior and discipline",
       "Enhances owner-pet relationship",
@@ -122,9 +122,9 @@
   {
     "id": 7,
     "title": "Pet Photography",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "image": "https://www.dogster.com/wp-content/uploads/2024/04/dog-photographer-and-a-corgi-in-the-forest_Jus_Ol_Shutterstock.jpg",
     "shortDesc": "Capture memorable moments with professional photography.",
-    "fullDesc": "We offer professional pet photography to capture your pets in their natural behavior and personality. Sessions include creative setups, natural lighting, and patience to ensure perfect shots. Perfect for keepsakes, social media, or gifts. Our photographers specialize in making pets comfortable, playful, and photogenic during each session.",
+    "fullDesc": "We offer professional pet photography to capture your pets in their natural behavior and personality — playful, relaxed, curious or affectionate. Our skilled photographers use pet‑friendly techniques, ensuring your pet feels comfortable and safe during the shoot. We let pets explore, play or interact naturally while capturing candid moments — no forced poses or stress. Sessions can be indoor or outdoor, using natural light or pet‑safe lighting setups. After the shoot, we provide high‑resolution edited photos, perfect for memories, social media, or keepsakes. Whether you want a relaxed portrait, action shots, or a themed photo session, our service creates beautiful, lasting memories of your beloved pet.",
     "benefits": [
       "High-quality professional images",
       "Stress-free and fun experience for pets",
@@ -141,10 +141,10 @@
   },
   {
     "id": 8,
-    "title": "Pet Spa",
-    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+       "title": "Pet Spa",
+    "image": "https://media.istockphoto.com/id/1188690247/photo/cute-red-and-white-corgi-lays-on-the-bed-with-eye-maks-from-real-cucumber-chips-head-on-the.jpg?s=612x612&w=0&k=20&c=tcqTTaV7pE86VC5Il9AebgdwNX0MRiqN8uFQ7tlD9Wo=",
     "shortDesc": "Relaxing spa treatments for your pets.",
-    "fullDesc": "Our pet spa provides a luxurious experience for pets including massages, aromatherapy baths, paw care, and relaxation treatments. Spa sessions help reduce stress, improve circulation, maintain healthy skin and coat, and provide mental relaxation. Each session is tailored to your pet’s needs and comfort level, making it a pampering experience that keeps your pet healthy and happy.",
+    "fullDesc": "Our pet spa provides a luxurious and calming experience for your pets, combining grooming, pampering, and relaxation. Spa sessions may include gentle massages, aromatherapy baths with pet‑safe products, paw care, fur conditioning treatments, and soothing warm towels — all designed to relieve stress and promote skin and coat health. Especially beneficial for elderly pets or those with skin sensitivity, spa therapy helps reduce anxiety, improve circulation, promote healthy skin and coat, and support joint mobility. During the spa, pets have calm, supervised time in a hygienic, comforting environment. After the session, you’ll receive guidance on after‑care — how to maintain coat health, grooming routines, and frequency of spa visits for best results. The spa experience offers both physical well-being and mental calmness, leaving your pet refreshed, relaxed and happy.",
     "benefits": [
       "Reduces stress and anxiety",
       "Promotes healthy skin and coat",

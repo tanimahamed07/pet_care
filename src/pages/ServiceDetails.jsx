@@ -17,31 +17,31 @@ const ServiceDetails = () => {
     navigate("/");
   };
   return (
-    <div className="max-w-6xl mx-auto mt-[100px] p-5 md:p-10">
+    <div className="container mx-auto px-4 mt-38">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         {/* LEFT SIDE — IMAGE */}
         <div>
           <img
             src={serviceDetails.image}
             alt={serviceDetails.title}
-            className="w-full h-[300px] md:h-[500px] object-cover rounded-xl shadow-lg"
+            className="w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-xl shadow-lg"
           />
         </div>
 
         {/* RIGHT SIDE — DETAILS */}
         <div className="space-y-6">
-          <h1 className="text-3xl md:text-4xl text-primary font-bold">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-primary font-bold">
             {serviceDetails.title}
           </h1>
 
-          <p className=" leading-relaxed">
+          <p className="text-base sm:text-lg leading-relaxed">
             {serviceDetails.fullDesc}
           </p>
 
           {/* BENEFITS */}
           <div>
             <h2 className="text-xl font-semibold mb-2">Benefits</h2>
-            <ul className="list-disc ml-6 space-y-1">
+            <ul className="list-disc ml-6 space-y-1 text-sm sm:text-base">
               {serviceDetails.benefits.map((b, index) => (
                 <li key={index}>{b}</li>
               ))}
@@ -51,7 +51,7 @@ const ServiceDetails = () => {
           {/* TIPS */}
           <div>
             <h2 className="text-xl font-semibold mb-2">Tips for Pet Owners</h2>
-            <ul className="list-disc ml-6 space-y-1">
+            <ul className="list-disc ml-6 space-y-1 text-sm sm:text-base">
               {serviceDetails.tips.map((t, index) => (
                 <li key={index}>{t}</li>
               ))}
@@ -59,11 +59,11 @@ const ServiceDetails = () => {
           </div>
 
           {/* PRICE + DURATION */}
-          <div className="flex flex-col md:flex-row md:items-center gap-4 mt-4">
-            <div className="badge badge-primary p-4 text-lg">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4 mt-4">
+            <div className="badge badge-primary p-3 text-base sm:text-lg">
               Price: {serviceDetails.price}
             </div>
-            <div className="badge badge-secondary p-4 text-lg">
+            <div className="badge badge-secondary p-3 text-base sm:text-lg">
               Duration: {serviceDetails.duration}
             </div>
           </div>
@@ -72,7 +72,9 @@ const ServiceDetails = () => {
 
       {/* BOOKING FORM - FULL WIDTH BELOW */}
       <div className="mt-12">
-        <h2 className="text-3xl text-primary font-bold mb-6">Book This Service</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl text-primary font-bold mb-6 text-center md:text-left">
+          Book This Service
+        </h2>
 
         <form
           onSubmit={handleSubmit}
@@ -112,7 +114,7 @@ const ServiceDetails = () => {
           <textarea
             name="note"
             placeholder="Additional Notes"
-            className="textarea textarea-bordered md:col-span-2"
+            className="textarea textarea-bordered md:col-span-2 w-full"
           ></textarea>
 
           <button

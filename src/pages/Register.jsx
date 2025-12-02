@@ -69,74 +69,100 @@ const Register = () => {
       .catch((error) => toast.error(error.message));
   };
   return (
-    <div className="hero bg-base-200 min-h-screen ">
+    <div className="hero min-h-screen flex justify-center items-center">
       <div
-        data-aos="flip-up"
-        data-aos-delay="100"
-        data-aos-anchor=".example-selector"
-        className="hero-content flex-col lg:flex-row-reverse"
+        className="hero-content flex-col w-full"
       >
-        <div className="card bg-base-100 max-w-sm shrink-0 shadow-2xl">
-          <div className="card-body w-full">
-            <h1 className=" text-center text-2xl font-bold">Register</h1>
-            <form action="" onSubmit={handleRegister}>
-              <fieldset className="fieldset">
-                <label className="label">Name</label>
+        <div className="card bg-base-200 w-full max-w-sm shrink-0 shadow-2xl">
+          <div className="card-body">
+            <h1 className="text-center text-2xl font-bold">Register</h1>
+
+            <form onSubmit={handleRegister} className="space-y-3">
+              {/* Name Input */}
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Name</span>
+                </label>
                 <input
                   name="name"
                   type="text"
-                  className="input"
-                  placeholder="Name"
+                  className="input input-bordered w-full"
+                  placeholder="Your Name"
                   required
                 />
-                <label className="label">Photo</label>
+              </div>
+
+              {/* Photo URL Input */}
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Photo URL</span>
+                </label>
                 <input
                   name="photo"
                   type="text"
-                  className="input"
-                  placeholder="Photo Url"
+                  className="input input-bordered w-full"
+                  placeholder="https://example.com/photo.jpg"
                   required
                 />
-                <label className="label">Email</label>
+              </div>
 
+              {/* Email Input */}
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Email</span>
+                </label>
                 <input
                   name="email"
-                  className="input"
                   type="email"
-                  placeholder="Email"
+                  className="input input-bordered w-full"
+                  placeholder="email@example.com"
+                  required
                 />
+              </div>
 
-                <label className="label">Password</label>
-                {error && (
-                  <p className="text-red-400">
-                    Password must be at least 6 characters, include 1 uppercase
-                    and 1 lowercase letter
-                  </p>
-                )}
-                <div className="relative">
+              {/* Password Input */}
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Password</span>
+                </label>
+
+                {/* Error Message Display */}
+                {error && <p className="text-red-500 text-xs mb-2">{error}</p>}
+
+                <div className="relative w-full">
                   <input
                     name="password"
                     type={toggle ? "text" : "password"}
-                    className="input"
+                    className="input input-bordered w-full pr-10"
                     placeholder="Password"
+                    required
                   />
+                  {/* Icon Fix: right-3 ব্যবহার করা হয়েছে */}
                   <span
-                    className="absolute top-1/2 left-52 -translate-y-1/2 cursor-pointer text-gray-500"
+                    className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer text-gray-500 hover:text-gray-700"
                     onClick={() => setToggle(!toggle)}
                   >
-                    {toggle ? <FaEyeSlash /> : <FaEye />}
+                    {toggle ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
                   </span>
                 </div>
-                <button className="btn btn-neutral mt-4">Register</button>
+              </div>
+
+              {/* Register Button */}
+              <div className="form-control mt-6">
+                <button className="btn btn-primary w-full">Register</button>
+              </div>
+
+              {/* Google Register */}
+              <div className="form-control">
                 <button
                   type="button"
                   onClick={handleGoogleLogin}
-                  class="btn bg-white text-black border-[#e5e5e5]"
+                  className="btn w-full bg-white text-black border-[#e5e5e5] hover:bg-gray-50 flex items-center justify-center gap-2"
                 >
                   <svg
                     aria-label="Google logo"
-                    width="16"
-                    height="16"
+                    width="18"
+                    height="18"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -162,17 +188,18 @@ const Register = () => {
                   </svg>
                   Register with Google
                 </button>
-                <p className="text-center text-sm mt-4">
-                  Already have an account?
-                  <Link
-                    to="/login"
-                    className="text-blue-500 hover:underline font-semibold"
-                  >
-                    Login here
-                  </Link>
-                </p>
-              </fieldset>
+              </div>
             </form>
+
+            <p className="text-center text-sm mt-4">
+              Already have an account?{" "}
+              <Link
+                to="/login"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+                Login here
+              </Link>
+            </p>
           </div>
         </div>
       </div>

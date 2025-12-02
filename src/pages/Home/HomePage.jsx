@@ -17,7 +17,6 @@ const HomePage = () => {
             <Banner/>
             <TopRatedService></TopRatedService>
             <Offer></Offer>
-            <ServicesSection/>
             <PetCare></PetCare>
             <VetsSection/>
             <CustomerReview/>

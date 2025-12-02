@@ -17,6 +17,7 @@ const Navbar = () => {
     setTheme(checked ? "dark" : "light");
   };
   const { user, signoutUserFunc, setUser } = use(AuthContext);
+  console.log(user);
   const handleLogout = () => {
     signoutUserFunc()
       .then(() => {
@@ -90,28 +91,36 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal text-primary gap-5 px-1">
             <li>
-              <NavLink to="/" className="px-3 py-1">
+              <NavLink to="/" className="btn-sm btn">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/services" className="px-3 py-1">
+              <NavLink className="btn-sm btn" to="/services">
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about-us">About Us</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact-us">Contact Us</NavLink>
-            </li>
-            <li>
-              <NavLink to="/fq">FAQ</NavLink>
-            </li>
-            <li>
-              <NavLink to="/profile" className="px-3 py-1">
-                Profile
+              <NavLink className="btn-sm btn" to="/about-us">
+                About Us
               </NavLink>
+            </li>
+            <li>
+              <NavLink className="btn-sm btn" to="/contact-us">
+                Contact Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="btn-sm btn" to="/fq">
+                FAQ
+              </NavLink>
+            </li>
+            <li>
+              {user?.email && (
+                <NavLink to="/profile" className="px-3 btn py-1">
+                  Profile
+                </NavLink>
+              )}
             </li>
           </ul>
         </div>
