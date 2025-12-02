@@ -10,6 +10,7 @@ import ForgetPassword from "../pages/ForgetPassword";
 import UpdateProfile from "../pages/UpdateProfile";
 import ServicesSection from "../pages/Home/ServicesSection";
 import Spinner from "../pages/Spinner";
+import AboutUs from "../pages/AboutUs/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -56,8 +57,11 @@ export const router = createBrowserRouter([
         element: <Register></Register>,
       },
       {
+        path: 'about-us', 
+        element: <AboutUs></AboutUs>
+      },
+      {
         path: "services",
-        loader: () => fetch("/care.json"),
         hydrateFallbackElement: <Spinner />,
         element: <ServicesSection></ServicesSection>,
       },

@@ -1,30 +1,31 @@
-import React from "react";
-import { useLoaderData } from "react-router";
-import ServiceCard from "../ServiceCard";
-import image from "../../assets/pet-growming.webp";
+import React, { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import Card from "../../components/Card";
+import Offer from "./Offer";
 
 const ServicesSection = () => {
-  const data = useLoaderData();
+    const [services, setServices] = useState([]);
+  
+    useEffect(() => {
+      fetch("/petcare.json")
+        .then((res) => res.json())
+        .then((data) => setServices(data))
+        .catch((err) => console.error(err));
+    }, []);
   return (
-    
+     <section id="top-items" className="py-16 bg-base-100 mt-[100px]">
+      <div className="container mx-auto">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-primary text-center mb-12 tracking-wide">
+          Our All Services for Your Beloved Pets
+        </h2>
 
-      <div
-        data-aos="fade-zoom-in"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
-        data-aos-duration="600"
-        className=" container mx-auto"
-      >
-        {/* <h1 className="text-3xl font-bold text-blue-600 mb-6">
-          Popular Winter Care Services
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {data?.map((service) => (
-            <ServiceCard key={service.serviceId} service={service} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          {services.map((item) => (
+            <Card item={item}></Card>
           ))}
-        </div> */}
+        </div>
       </div>
+    </section>
   );
 };
 
