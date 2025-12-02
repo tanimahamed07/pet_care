@@ -21,7 +21,6 @@ const ServiceCard = ({ service }) => {
         <p className="text-blue-600 font-bold">${service.price}</p>
         <div className="card-actions mt-4">
           <Link to={`/details/${service.serviceId}`}>
-            {" "}
             <button className="btn bg-blue-600 text-white font-semibold hover:from-blue-600 hover:to-cyan-500 border-none rounded-full btn-block">
               View Details
             </button>

@@ -5,8 +5,8 @@ import dr3 from "../../assets/dr-3.jpg";
 const VetsSection = () => {
   return (
     <div data-aos="zoom-in-left" className="max-w-11/12 mx-auto p-6 mt-12">
-      <h2 className="text-2xl md:text-3xl font-semibold text-center text-blue-700 mb-8">
-        🩺 Meet Our Expert Vets
+      <h2 className="text-3xl text-center sm:text-4xl md:text-5xl font-bold mb-6 text-primary">
+         Meet Our Expert Vets
       </h2>
       <div className="grid gap-6 md:grid-cols-3">
         <div className="card bg-base-100 border border-blue-100 shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 rounded-xl">

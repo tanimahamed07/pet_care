@@ -8,7 +8,7 @@ const CustomerReview = () => {
     <div className="w-11/12 mx-auto">
       <section className="bg-base-100 py-16">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-primary">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-primary text-center">
             🐶 What Our Happy Clients Say 🐾
           </h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -72,11 +72,6 @@ const CustomerReview = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="text-center mt-10">
-            <button className="btn btn-primary btn-wide">
-              See More Reviews
-            </button>
           </div>
         </div>
       </section>

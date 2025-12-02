@@ -24,13 +24,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/details/:id",
-        loader: () => fetch("/care.json"),
+        loader: () => fetch("/petcare.json"),
         hydrateFallbackElement: <Spinner />,
 
         element: (
-          <PrivateRoutes>
             <ServiceDetails></ServiceDetails>
-          </PrivateRoutes>
         ),
       },
       {

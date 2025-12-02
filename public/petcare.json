@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Pet Sitting",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Professional care for your pets while you are away.",
+    "fullDesc": "Our professional pet sitters provide loving and attentive care for your pets while you are away. We ensure that each pet receives individualized attention based on their personality, dietary needs, and health conditions. Services include feeding, playtime, administering medication if needed, and daily activity reports with photos. We also offer overnight stays and extended care options. Choosing our pet sitting services gives you peace of mind knowing that your pet is in safe hands, comfortable, and happy throughout the day.",
+    "benefits": [
+      "Daily feeding and care tailored to your pet",
+      "Personalized attention and companionship",
+      "Daily activity report with photos and updates",
+      "Flexible timing and overnight care options"
+    ],
+    "price": "$25 per day",
+    "duration": "Full day or Half day",
+    "tips": [
+      "Leave your pet’s favorite toys and bedding",
+      "Provide detailed instructions for feeding and medication",
+      "Notify us of any allergies or special care requirements"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Dog Walking",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Daily walks to keep your dog healthy and happy.",
+    "fullDesc": "Regular dog walking is essential for your dog’s physical and mental health. Our professional dog walkers provide safe, structured, and enjoyable walks tailored to your dog’s energy level and size. Walks include exercise, socialization with other dogs if appropriate, and monitoring for any health or behavioral issues. Whether it’s a short 30-minute walk or a full hour-long adventure, your dog will return home happy, calm, and well-exercised.",
+    "benefits": [
+      "Improves physical fitness and maintains healthy weight",
+      "Encourages socialization and positive behavior",
+      "Reduces anxiety and boredom at home",
+      "Monitors health and behavior during walks"
+    ],
+    "price": "$15 per walk",
+    "duration": "30 mins or 1 hour",
+    "tips": [
+      "Use a secure leash and harness",
+      "Bring water for long walks",
+      "Inform us of any behavioral concerns or health issues"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pet Grooming",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Professional grooming to make your pet look amazing.",
+    "fullDesc": "Our grooming services ensure your pets not only look great but also stay healthy. We provide baths, haircuts, nail trimming, ear cleaning, teeth brushing, and skin checks. Grooming helps prevent matting, hairballs, skin infections, and ensures your pet’s coat remains shiny and healthy. Each session is customized to the pet’s breed, size, and temperament. Our trained groomers use pet-safe products and techniques to make the experience stress-free and enjoyable.",
+    "benefits": [
+      "Maintains healthy skin and coat",
+      "Prevents matting, hairballs, and infections",
+      "Professional handling and care",
+      "Reduces shedding and improves hygiene"
+    ],
+    "price": "$40 per session",
+    "duration": "1-2 hours",
+    "tips": [
+      "Schedule regular grooming appointments",
+      "Bring favorite treats for comfort",
+      "Brush pets daily between sessions to prevent tangles"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Health Checkups",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Regular health checkups for your pets’ wellbeing.",
+    "fullDesc": "Routine health checkups are crucial for your pet’s longevity and well-being. Our comprehensive checkups include physical examination, vaccination updates, dental check, parasite prevention, and nutritional guidance. Early detection of health issues helps in timely treatment. Each visit also includes personalized advice on exercise, diet, and lifestyle adjustments. Our veterinarians provide a safe, calm environment to ensure pets feel comfortable throughout the examination.",
+    "benefits": [
+      "Preventive healthcare for long-term wellbeing",
+      "Early detection of illnesses",
+      "Professional guidance on diet and exercise",
+      "Peace of mind for pet owners"
+    ],
+    "price": "$50 per visit",
+    "duration": "30 mins to 1 hour",
+    "tips": [
+      "Keep vaccination and medical records ready",
+      "Observe pet behavior and report any changes",
+      "Schedule annual or semi-annual checkups for best results"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Pet Boarding",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Safe and comfortable boarding for your pets.",
+    "fullDesc": "Our pet boarding services provide a safe, clean, and home-like environment for your pets while you are away. Each pet receives personalized care, including feeding, exercise, playtime, and social interaction. Overnight boarding includes comfortable sleeping areas, monitoring throughout the night, and attention to special care requirements. We ensure that your pets feel secure and loved during their stay, reducing stress for both pets and owners.",
+    "benefits": [
+      "24/7 supervision and care",
+      "Comfortable sleeping areas",
+      "Daily exercise and socialization",
+      "Stress-free environment for pets"
+    ],
+    "price": "$35 per night",
+    "duration": "Overnight or multiple days",
+    "tips": [
+      "Bring favorite bedding or toys for comfort",
+      "Provide detailed feeding instructions",
+      "Inform about any medications or special care needs"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pet Training",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Professional training for obedience and behavior.",
+    "fullDesc": "Our professional training sessions are designed for puppies and adult pets to improve obedience, social behavior, and tricks. We focus on positive reinforcement techniques that encourage good behavior while strengthening the bond between pet and owner. Training programs are customized based on breed, age, temperament, and owner goals. Sessions include practical exercises, guidance for home practice, and progress tracking.",
+    "benefits": [
+      "Improves behavior and discipline",
+      "Enhances owner-pet relationship",
+      "Promotes confident and social pets",
+      "Structured and professional guidance"
+    ],
+    "price": "$30 per session",
+    "duration": "1 hour per session",
+    "tips": [
+      "Practice consistency at home",
+      "Use positive reinforcement techniques",
+      "Follow trainer’s guidance for best results"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Pet Photography",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Capture memorable moments with professional photography.",
+    "fullDesc": "We offer professional pet photography to capture your pets in their natural behavior and personality. Sessions include creative setups, natural lighting, and patience to ensure perfect shots. Perfect for keepsakes, social media, or gifts. Our photographers specialize in making pets comfortable, playful, and photogenic during each session.",
+    "benefits": [
+      "High-quality professional images",
+      "Stress-free and fun experience for pets",
+      "Memorable keepsakes and gifts",
+      "Creative and natural photography setups"
+    ],
+    "price": "$60 per session",
+    "duration": "1 hour",
+    "tips": [
+      "Bring favorite toys and treats",
+      "Schedule during natural daylight",
+      "Be patient and relaxed for best results"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pet Spa",
+    "image": "https://archanababu.epizy.com/wp-content/uploads/2022/08/27-1432737199-pet.jpg",
+    "shortDesc": "Relaxing spa treatments for your pets.",
+    "fullDesc": "Our pet spa provides a luxurious experience for pets including massages, aromatherapy baths, paw care, and relaxation treatments. Spa sessions help reduce stress, improve circulation, maintain healthy skin and coat, and provide mental relaxation. Each session is tailored to your pet’s needs and comfort level, making it a pampering experience that keeps your pet healthy and happy.",
+    "benefits": [
+      "Reduces stress and anxiety",
+      "Promotes healthy skin and coat",
+      "Improves circulation and mobility",
+      "Mental and physical relaxation for pets"
+    ],
+    "price": "$45 per session",
+    "duration": "1-1.5 hours",
+    "tips": [
+      "Book spa sessions in advance",
+      "Monitor your pet’s comfort during treatment",
+      "Combine with grooming for best results"
+    ]
+  }
+]
