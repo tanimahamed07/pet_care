@@ -5,7 +5,7 @@ purpose:
 Helping pet owners take care of their pets during cold weather.
 
 live URL: https://per-care-kwu034u2c-tanim-ahameds-projects.vercel.app/
-live URL: 
+
 
 Key Features :
 • Fully responsive design for mobile, tablet, and desktop
