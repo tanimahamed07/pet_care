@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://via.placeholder.com/1280x400/0d47a1/ffffff?text=WarmPaws+-+Pet+Care+in+Winter" alt="WarmPaws Banner" width="100%"/>
+  <img src="https://per-care-kwu034u2c-tanim-ahameds-projects.vercel.app/" width="100%"/>
   <br><br>
   <a href="https://per-care-kwu034u2c-tanim-ahameds-projects.vercel.app/">
     <img src="https://img.shields.io/badge/Live%20Demo-0d47a1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
