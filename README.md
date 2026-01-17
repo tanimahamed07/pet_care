@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://per-care-kwu034u2c-tanim-ahameds-projects.vercel.app/" width="100%"/>
+  <img src="https://i.ibb.co.com/xtNzt58Y/Screenshot-2026-01-17-at-11-56-36-AM.png" width="100%"/>
   <br><br>
   <a href="https://per-care-kwu034u2c-tanim-ahameds-projects.vercel.app/">
     <img src="https://img.shields.io/badge/Live%20Demo-0d47a1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
