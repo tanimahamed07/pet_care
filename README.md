@@ -4,12 +4,9 @@
   <a href="https://per-care-kwu034u2c-tanim-ahameds-projects.vercel.app/">
     <img src="https://img.shields.io/badge/Live%20Demo-0d47a1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
   </a>
-  <a href="https://github.com/YOUR-USERNAME/pet-care">
-    <img src="https://img.shields.io/github/stars/YOUR-USERNAME/pet-care?style=for-the-badge&color=0d47a1" alt="GitHub Stars">
-  </a>
 </p>
 
-<h1 align="center">🐾 WarmPaws – Pet Care in Winter</h1>
+<h1 align="center">🐾 Pet Care – Pet Care in Winter</h1>
 
 <p align="center">
   A cozy winter companion platform designed to help pet owners keep their furry friends <strong>warm, safe, and healthy</strong> during the cold season.<br>
