@@ -71,25 +71,6 @@ Helping pet owners take proper care of their pets during **cold weather** by pro
 | `/register`        | Sign Up (name, email, photo URL, password)       | Public        |
 | `*`                | 404 Not Found                                    | Public        |
 
-## 📋 Assignment Compliance Checklist
-
-- [x] At least 10 meaningful Git commits
-- [x] Professional README.md
-- [x] Fully responsive (mobile + tablet + desktop)
-- [x] Firebase config in `.env` (VITE_ prefix)
-- [x] Minimalist & modern winter-themed design
-- [x] Subtle animations (AOS + Animate.css + Swiper)
-- [x] No reload errors (Vercel + proper routing)
-- [x] JSON file with ≥6 winter pet services
-- [x] Protected Service Details page + redirect after login
-- [x] Book Service form → success toast (no backend)
-- [x] Login: Email/Password + Google + Forgot Password
-- [x] Register: Password validation (uppercase, lowercase, ≥6 chars)
-- [x] My Profile + Update Profile (name & photo)
-- [x] Password eye toggle in Login & Register (challenge)
-- [x] Forgot Password redirects to Gmail with pre-filled email
-- [x] Toast notifications for all actions
-- [x] Extra homepage section (e.g. “Winter Pet Safety Checklist”)
 
 ## 🚀 Quick Start (Local Development)
 
