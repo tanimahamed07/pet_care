@@ -76,7 +76,7 @@ Helping pet owners take proper care of their pets during **cold weather** by pro
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR-USERNAME/pet-care.git
+git clone https://github.com/tanimahamed07/pet_care.git
 cd pet-care
 
 # 2. Install dependencies
